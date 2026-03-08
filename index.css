@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(30, 30, 100);
+    padding-bottom: 20px;
+
+}
+.score-holder{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-size: 38px;
+    margin-bottom: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.display{
+    display: flex;
+    height: 100px;
+    color: brown;
+    background-color: black;
+    border-radius: 10px; 
+    font-size: 90px;
+    justify-content: center;
+}
+.btn-holder{
+    margin-top: 12px;
+    display: flex;
+    gap: 14px;
+}
+button{
+    height: 30px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    border:white, 1px, solid;
+}
+.new-game, .leader{
+    background-color: rgb(30, 30, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.new-game >button, .leader > button{
+    background-color: brown;
+    border: solid, black, 2px;
+    border-radius: 5px; 
+}
+.leader> span{
+    width: 100px;
+    height: 25px;
+    color: white;
+    border: solid, 1px;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 24px;
+    text-align: center;
+}
