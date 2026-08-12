@@ -3,6 +3,7 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+<<<<<<< HEAD
         <h1>Blackjack</h1>
         <p id="message-el">Want to play a round?</p>
         <p id="cards-el">Cards:</p>
@@ -10,6 +11,35 @@
         <button onclick="startGame()">START GAME</button>
         <button onclick="newCard()">NEW CARD</button>
         <p id="player-el"></p>
+=======
+        <div class="container">
+            <div class="score-holder">
+                <h3>BULLS</h3>
+                <div class="display", id="hscore"> </div>
+                <div class="btn-holder">
+                    <button onclick="homeOne()">+1</button>
+                    <button onclick="homeTwo()">+2</button>
+                    <button onclick="homeThree()">+3</button>
+                </div>
+            </div>
+            <div class="score-holder">
+                <h3>HORSES</h3>
+                <div class="display", id="gscore"> </div>
+                <div class="btn-holder">
+                    <button onclick="guestOne()">+1</button>
+                    <button onclick="guestTwo()">+2</button>
+                    <button onclick="guestThree()">+3</button>
+                </div>
+            </div>
+        </div>
+         <div class="new-game">
+            <button onclick="newGame()">NEW GAME!</button>
+        </div>
+        <div class="leader">
+            <button onclick="leader()">LEADING TEAM?</button>
+            <span id="lead"></span>
+        </div>
+>>>>>>> f9256b7414abde193eba4a0c431cec652cfcd798
         <script src="index.js"></script>
     </body>
 </html>
