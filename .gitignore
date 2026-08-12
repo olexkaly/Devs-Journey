@@ -1,0 +1,15 @@
+# Dependencies (Crucial to block)
+node_modules/
+
+# Production Build Outputs (Vite creates this when bundling code)
+dist/
+dist-ssr/
+*.local
+
+# Local Environment Secret Keys (If you use API keys later)
+.env
+.env.local
+
+# Operating System Garbage Files
+.DS_Store
+Thumbs.db
